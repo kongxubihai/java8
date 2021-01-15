@@ -5,6 +5,9 @@
 
     <modelVersion>4.0.0</modelVersion>
     <artifactId>java</artifactId>
+    <modules>
+        <module>generics-demo/generics-demo</module>
+    </modules>
     <groupId>java</groupId>
     <version>1.0.0</version>
     <packaging>pom</packaging>
