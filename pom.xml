@@ -8,6 +8,7 @@
     <modules>
         <module>generics-demo/generics-demo</module>
         <module>optional_demo</module>
+        <module>grance_demo</module>
     </modules>
     <groupId>java</groupId>
     <version>1.0.0</version>
