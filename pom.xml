@@ -6,10 +6,15 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>java</artifactId>
     <modules>
-        <module>generics-demo/generics-demo</module>
+        <module>generics-demo</module>
         <module>optional_demo</module>
+<<<<<<< HEAD
         <module>grance_demo</module>
         <module>regex-demo</module>
+=======
+        <module>enum_demo</module>
+        <module>reflection_demo</module>
+>>>>>>> c1d1336194902f8ff6964997054ab291e3452ff4
     </modules>
     <groupId>java</groupId>
     <version>1.0.0</version>
@@ -20,6 +25,18 @@
     </properties>
 
     <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>2.3.2</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+
         <pluginManagement>
             <plugins>
                 <plugin>
